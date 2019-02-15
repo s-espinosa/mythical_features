@@ -7,7 +7,6 @@ require './lib/westeros_service'
 require './lib/movie_service'
 require './lib/lyrics_service'
 require './lib/discogs_service'
-require './lib/translation_service'
 require './lib/taco_service'
 require './lib/marvel_service'
 require './lib/spotify_service'
@@ -25,7 +24,6 @@ w    = WesterosService.new
 m    = MovieService.new
 l    = LyricsService.new
 d    = DiscogsService.new
-t    = TranslationService.new
 taco = TacoService.new
 marv = MarvelService.new
 s    = SpotifyService.new
