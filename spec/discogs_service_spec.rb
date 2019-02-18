@@ -14,7 +14,6 @@ describe DiscogsService do
 
     expect(releases).to have_key("pagination")
     expect(releases).to have_key("results")
-    expect(releases["results"].first).to have_key("genre")
     expect(releases["results"].first).to have_key("title")
     expect(releases["results"].first).to have_key("id")
   end
